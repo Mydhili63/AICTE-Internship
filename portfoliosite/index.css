@@ -228,6 +228,95 @@
     display: flex;
     flex-direction: column;
 }
+.bj{
+    display: block;
+    margin-left: 20px;
+    margin-top: 45px;
+    
+}
+
+.html{
+    display: block;
+    margin-left: 67px;
+    margin-top: 67px;
+    width:32px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-radius: 45px;
+  
+}
+.css{
+    
+        display: block;
+        margin-left: 67px;
+        margin-top: 67px;
+        width:32px;
+        padding: 10px;
+        border: 5px solid gray;
+        margin: 0;
+        border-radius: 45px;
+      
+    
+}
+
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+    /* Aligns the children items in a row direction */
+    display: flex;
+}
+
+.child1{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 67px;
+    margin-top: 67px;
+    width:32px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.child2{
+    width: 25px;
+    height: 25px;   
+    display: block;
+    margin-left: 67px;
+    margin-top: 67px;
+    width:32px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-radius: 45px;
+    text-align: center;
+}
+.child3{
+        width: 25px;
+        height: 25px;   
+        display: block;
+        margin-left: 67px;
+        margin-top: 67px;
+        width:32px;
+        padding: 10px;
+        border: 5px solid gray;
+        margin: 0;
+        border-radius: 45px;
+        text-align: center;
+    
+}
+.column {
+    flex: 10%;
+    padding: 5px;
+}
+.row {
+    display: flex;
+  }
+  
 @media(max-width: 1615px) {
     *{
     /*background-color: red;*/
@@ -240,7 +329,7 @@
         transform:  translate(-443px,0px);
         position: absolute;
     */
-    .intro,.blogcontainer,.contactform{
+    .intro,.blog-container,.contactform,.blogitem{
         margin: 50px 8px;
     }
     .devpic{

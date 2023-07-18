@@ -479,7 +479,7 @@
     text-align: center;
     justify-content: center;
     background-image: linear-gradient(120deg,#7251b5,#815ac0,#9163cb,#b185db,#d2b7e5);
-    position: absolute;
+    position: relative;
     border: 4px solid #0466c8;
     box-shadow: 5px 5px 10px -1px #003f88 ;
     bottom: -80px;
